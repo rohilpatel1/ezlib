@@ -15,7 +15,7 @@ namespace fs {
     std::string content, line;
 
     while(std::getline(File, line)) {
-    content += line + '\n';
+      content += line + '\n';
     }
 
     return content;
