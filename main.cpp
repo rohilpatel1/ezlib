@@ -1,10 +1,9 @@
 #include <iostream>
 #include <string>
 
-#include "modules/fs.hpp"
+#include "modules/math.hpp"
 
 int main() {
-  fs::appendFile("./index.js", "const os = require('os')");
-
+  std::cout << Math::round(5) << std::endl;
   return 0;
 }
