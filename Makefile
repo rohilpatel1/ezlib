@@ -1,4 +1,4 @@
-SRC = $(wildcard src/*.cpp)
+SRC = $(wildcard ../src/*.cpp)
 OBJS = $(wildcard build/*.o)
 .PHONY: all build clean build_test test
 all: build clean
