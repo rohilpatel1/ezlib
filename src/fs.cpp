@@ -1,6 +1,6 @@
-#pragma once
 #include <string>
 #include <fstream>
+#include <ezlib/fs.hpp>
 
 namespace fs {
   void writeFile(std::string file, std::string data) {

@@ -1,7 +1,4 @@
-#include <iostream>
-#include <string>
-
-#include "modules/fs.hpp"
+#include <ezlib/fs.hpp>
 
 int main() {
   fs::writeFile("./index.js", "const os = require('os')");
