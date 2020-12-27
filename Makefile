@@ -18,3 +18,7 @@ test: build_test
 
 build_test: ezlib.so
 	g++ tests/test.cpp -I./include -L./build -o ./build/test -lezlib
+
+install: build
+	cp build/libezlib.so /usr/local/lib/libezlib.so
+	cp -a include/. /usr/local/include
