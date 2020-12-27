@@ -1,6 +1,3 @@
-#include <iostream>
-#include <string>
-
 #include "modules/fs.hpp"
 
 int main() {
